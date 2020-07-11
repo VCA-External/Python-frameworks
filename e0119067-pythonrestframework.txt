@@ -1,0 +1,19 @@
+Python is a user friendly and highly-capable language, primed to handle the rigors of API development. It holds different python rest frameworks which helps in web framework frameworks expedite API development. the major ones used are:
+1. Flask
+Flask is lightweight, non-intrusive and compatible with outside tools and ORMs.It provides default protection from injection attacks, data integrity checks, and secure cookie generation on the client side.It makes Api building much easier.However it has certain disadvantages like being incomprehensive in bootstrapping tools and modules ,the initial customization time can delay development and production.
+Django
+It is a mature and optimized framework, extremely fast and reliable .It acts as a simple constructs for users, loops, and conditionals allow developers to rapidly write numerous lines of new code.It has Templating, routing, forms, authentication, and management tools are included by default. But it does have the trouble of having a large number of default tools.
+Pyramid
+Pyramid seeks to bridge the gap between frameworks like Django and Flask. Pyramid provides ample guidance for file bundling, thus packaging your projects in a much more foolproof manner. Pyramid creates a fairly sizeable project template, yet provides ample starter code and skeletons to simplify development.It allows developers to scale applications rapidly, with robust API support, URL mapping, and heavy extensibility via add ons.And more importantly,Pyramid supports all supported versions of Python.But the drawbaks can be that Pyramid’s Chameleon template syntax can be relatively complicated.
+
+Falcon
+A high-performance microservices framework focused on quality control.It   focuses on running efficiently on any given hardware, with framework flexibility.Falcon uses only two third-party dependencies.But it is not suitable for serving HTML pages and lacks a built-in web server.
+
+CherryPy
+Object-oriented programming keeps development time down while cutting down on codebase size.CherryPy has built-in tools for caching, sessions, authentication, and static content.Its every component and resource is interchangeable, letting developers customize as they see fit.CherryPy can serve both dynamic, user-dependent content as well as static resources.However if page handlers are not written correctly, users with permissions could potentially access any file stored on the server.
+ EVE
+Eve emphasizes REST and full-range CRUD compliance while providing necessary fallbacks by default.Filtering, sorting, resource pagination, and HATEOAS are supported by default.Known database collections are automatically as resource endpoints.Eve is generally better for small to mid-sized projects, as large projects can be difficult to manage at scale.
+Bottle
+Its an  independent framework with ample versatility and configurable.Intelligent routing accounts for cleaner, customizable, and logical URLs for requests and function calls.External libraries are unneeded, simplifying development and cutting down on cross-platform issues.Bottle may lose some data in transit when operating locally behind a reverse proxy or load balancer.
+Tornado
+It is a robust framework built to handle high traffic with minimal overhead.It can support tens of thousands of simultaneous connections, suitable for long polling, WebSockets, and more.Tornado can auto-reload server connections to detect and apply source file changes.It gives No ORM support.
